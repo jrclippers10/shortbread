@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  database: shortbread_development
+  pool: 5
+  timeout: 5000
+  username: kevinbeauregard
+  password: 
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: shortbread_test
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  database: shortbread_production
+  pool: 5
+  timeout: 5000
+
+staging:
+  adapter: postgresql
+  database: shortbread_development
+  pool: 5
+  timeout: 5000
